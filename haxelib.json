@@ -1,16 +1,13 @@
 {
-    
-    "name":"HLGVMedia",
+    "name":"HLWNative",
     "license": "MIT",
     "version": "1.0.0",
-    "url": "https://github.com/ZSolarDev/HLGVMedia",
-    "description": "This library provides general video support for your openfl hl application.",
-    "releasenote": "Added video support for hl-openfl.",
+    "url": "https://github.com/ZSolarDev/HLWNative",
+    "description": "This library provides support for native windows functions when compiling to HashLink",
+    "releasenote": "Added native window functions.",
     "contributors": ["ZSolarDev"],
-    "dependencies": {
-        "openfl": ""
-    },
+    "dependencies": {},
     "main": "Main",
-    "classPath": "hlgvmedia",
+    "classPath": "hlwnative",
     "tags": ["video", "media", "hashlink", "hl", "openfl", "ffmpeg"]
 }
