@@ -1,0 +1,16 @@
+{
+    
+    "name":"HLGVMedia",
+    "license": "MIT",
+    "version": "1.0.0",
+    "url": "https://github.com/ZSolarDev/HLGVMedia",
+    "description": "This library provides general video support for your openfl hl application.",
+    "releasenote": "Added video support for hl-openfl.",
+    "contributors": ["ZSolarDev"],
+    "dependencies": {
+        "openfl": ""
+    },
+    "main": "Main",
+    "classPath": "hlgvmedia",
+    "tags": ["video", "media", "hashlink", "hl", "openfl", "ffmpeg"]
+}
