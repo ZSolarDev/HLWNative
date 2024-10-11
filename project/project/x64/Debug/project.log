@@ -1,3 +1,7 @@
-﻿  window.cpp
-     Creating library C:\Haxe Libraries\hlwnative\project\x64\Debug\project.lib and object C:\Haxe Libraries\hlwnative\project\x64\Debug\project.exp
+﻿  applicationStatus.cpp
+  driveStatus.cpp
+  external.cpp
+  internalUtils.cpp
+  window.cpp
+  Generating Code...
   project.vcxproj -> C:\Haxe Libraries\hlwnative\project\x64\Debug\project.dll

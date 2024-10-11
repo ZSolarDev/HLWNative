@@ -5,7 +5,7 @@
 #include "internalUtils.h"
 
 // Creates a toast notification.
-HL_PRIM bool HL_NAME(makeToastNotification)(vstring* toastTitle, vstring* content)
+HL_PRIM bool HL_NAME(make_toast_notification)(vstring* toastTitle, vstring* content)
 {
     NOTIFYICONDATA m_NID;
 
@@ -36,4 +36,4 @@ HL_PRIM bool HL_NAME(makeToastNotification)(vstring* toastTitle, vstring* conten
 
     return Shell_NotifyIcon(NIM_MODIFY, &m_NID);
 }
-DEFINE_PRIM(_BOOL, makeToastNotification, _STRING _STRING);
+DEFINE_PRIM(_BOOL, make_toast_notification, _STRING _STRING);

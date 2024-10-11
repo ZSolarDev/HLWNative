@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Haxe Libraries\\hlwnative\\project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|C:\\Haxe Libraries\\hlwnative\\project\\src\\window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|solutionrelative:src\\window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|C:\\Haxe Libraries\\hlwnative\\project\\src\\external.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|solutionrelative:src\\external.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|C:\\Haxe Libraries\\hlwnative\\project\\src\\internalUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|solutionrelative:src\\internalUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|C:\\Haxe Libraries\\hlwnative\\project\\src\\window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|solutionrelative:src\\window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|C:\\Haxe Libraries\\hlwnative\\project\\src\\driveStatus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|solutionrelative:src\\driveStatus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|C:\\Haxe Libraries\\hlwnative\\project\\src\\applicationStatus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|solutionrelative:src\\applicationStatus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|C:\\Haxe Libraries\\hlwnative\\project\\src\\internalUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|solutionrelative:src\\internalUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|C:\\Haxe Libraries\\hlwnative\\project\\src\\external.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|solutionrelative:src\\external.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|C:\\Haxe Libraries\\hlwnative\\project\\src\\applicationStatus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|solutionrelative:src\\applicationStatus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|C:\\Haxe Libraries\\hlwnative\\project\\src\\internalUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52C11FB1-147F-449F-B02B-FA95F119ED4D}|project.vcxproj|solutionrelative:src\\internalUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,56 +34,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "internalUtils.h",
               "DocumentMoniker": "C:\\Haxe Libraries\\hlwnative\\project\\src\\internalUtils.h",
               "RelativeDocumentMoniker": "src\\internalUtils.h",
               "ToolTip": "C:\\Haxe Libraries\\hlwnative\\project\\src\\internalUtils.h",
               "RelativeToolTip": "src\\internalUtils.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-10T23:30:58.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "internalUtils.cpp",
               "DocumentMoniker": "C:\\Haxe Libraries\\hlwnative\\project\\src\\internalUtils.cpp",
               "RelativeDocumentMoniker": "src\\internalUtils.cpp",
               "ToolTip": "C:\\Haxe Libraries\\hlwnative\\project\\src\\internalUtils.cpp",
               "RelativeToolTip": "src\\internalUtils.cpp",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-10T23:26:26.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "external.cpp",
               "DocumentMoniker": "C:\\Haxe Libraries\\hlwnative\\project\\src\\external.cpp",
               "RelativeDocumentMoniker": "src\\external.cpp",
               "ToolTip": "C:\\Haxe Libraries\\hlwnative\\project\\src\\external.cpp",
               "RelativeToolTip": "src\\external.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-10T23:22:40.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "applicationStatus.cpp",
               "DocumentMoniker": "C:\\Haxe Libraries\\hlwnative\\project\\src\\applicationStatus.cpp",
               "RelativeDocumentMoniker": "src\\applicationStatus.cpp",
               "ToolTip": "C:\\Haxe Libraries\\hlwnative\\project\\src\\applicationStatus.cpp",
               "RelativeToolTip": "src\\applicationStatus.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-10T23:07:12.676Z",
               "EditorCaption": ""
@@ -96,20 +96,20 @@
               "RelativeDocumentMoniker": "src\\driveStatus.cpp",
               "ToolTip": "C:\\Haxe Libraries\\hlwnative\\project\\src\\driveStatus.cpp",
               "RelativeToolTip": "src\\driveStatus.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-10T22:51:56.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "window.cpp",
               "DocumentMoniker": "C:\\Haxe Libraries\\hlwnative\\project\\src\\window.cpp",
               "RelativeDocumentMoniker": "src\\window.cpp",
               "ToolTip": "C:\\Haxe Libraries\\hlwnative\\project\\src\\window.cpp",
               "RelativeToolTip": "src\\window.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-10T22:13:09.974Z",
               "EditorCaption": ""
