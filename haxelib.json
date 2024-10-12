@@ -11,7 +11,7 @@
     "dependencies": {
         "openfl": ""
     },
-    "classPath": "hlwnative",
+    "classPath": "src",
     "tags": [
         "hashlink",
         "native",
