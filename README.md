@@ -1,6 +1,8 @@
 # HLWNative
 HashLink Windows Native.
-
+<p align="center">
+  <img width="400" src="https://github.com/ZSolarDev/HLWNative/blob/main/resource/Logo.png">
+</p>
 ## What is it?
 These are externs for HashLink that allow you to run a (currently small) library of native windows functions.
 
