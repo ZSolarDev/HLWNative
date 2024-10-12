@@ -1,3 +1,4 @@
+#ifdef WINDOW_EXTERNS
 #define HL_NAME(n) window_##n
 
 #include <iostream>
@@ -42,3 +43,4 @@ HL_PRIM void HL_NAME(set_window_dpi_aware)(_NO_ARG)
     SetProcessDPIAware();
 }
 DEFINE_PRIM(_VOID, set_window_dpi_aware, _NO_ARG);
+#endif

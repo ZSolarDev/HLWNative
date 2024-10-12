@@ -1,3 +1,8 @@
-﻿  driveStatus.cpp
+﻿  applicationStatus.cpp
+  driveStatus.cpp
+  external.cpp
+  internalUtils.cpp
+  window.cpp
+  Generating Code...
      Creating library C:\Haxe Libraries\hlwnative\project\x64\Debug\project.lib and object C:\Haxe Libraries\hlwnative\project\x64\Debug\project.exp
   project.vcxproj -> C:\Haxe Libraries\hlwnative\project\x64\Debug\project.dll

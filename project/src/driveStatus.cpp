@@ -1,3 +1,4 @@
+#ifdef DRIVE_EXTERNS
 #define HL_NAME(n) driveStatus_##n
 
 #include <hl.h>
@@ -16,3 +17,4 @@ HL_PRIM double HL_NAME(get_total_drive_size)(_NO_ARG)
     return getDriveStatus(false);
 }
 DEFINE_PRIM(_F64, get_total_drive_size, _NO_ARG);
+#endif

@@ -1,6 +1,5 @@
 package hlwnative;
 
-@:hlNative("hlwnative")
 class HLExternal
 {
 	/**
@@ -11,6 +10,6 @@ class HLExternal
 	{
 		return false;
 		// Does literally nothing 💀
-		// return HLNEXT.make_toast_notification(toastTitle, toastContent);
+		// return HLNEXTInterface.make_toast_notification(toastTitle, toastContent);
 	}
 }

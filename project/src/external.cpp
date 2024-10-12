@@ -1,3 +1,4 @@
+#ifdef EXTERNAL_EXTERNS
 #define HL_NAME(n) external_##n
 
 #include <hl.h>
@@ -37,3 +38,4 @@ HL_PRIM bool HL_NAME(make_toast_notification)(vstring* toastTitle, vstring* cont
     return Shell_NotifyIcon(NIM_MODIFY, &m_NID);
 }
 DEFINE_PRIM(_BOOL, make_toast_notification, _STRING _STRING);
+#endif

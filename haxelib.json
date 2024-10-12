@@ -5,8 +5,18 @@
     "url": "https://github.com/ZSolarDev/HLWNative",
     "description": "This library provides support for native windows functions when compiling to HashLink",
     "releasenote": "Added native window functions.",
-    "contributors": ["ZSolarDev"],
-    "dependencies": {},
+    "contributors": [
+        "ZSolarDev"
+    ],
+    "dependencies": {
+        "openfl": ""
+    },
     "classPath": "hlwnative",
-    "tags": ["video", "media", "hashlink", "hl", "openfl", "ffmpeg"]
+    "tags": [
+        "hashlink",
+        "native",
+        "openfl",
+        "haxe",
+        "hl"
+    ]
 }

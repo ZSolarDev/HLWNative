@@ -2,9 +2,7 @@ package;
 
 import flixel.FlxG;
 import flixel.FlxState;
-import flixel.util.FlxColor;
 import hlwnative.*;
-import lime.app.Application;
 
 class PlayState extends FlxState
 {

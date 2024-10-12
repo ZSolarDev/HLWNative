@@ -32,6 +32,7 @@
 	<set name="BUILD_DIR" value="export" />
 	<source path="source" />
 	<assets path="assets" />
+    <assets path="project/final/" rename="native/" if="windows hl"/>
 
 	<!-- _______________________________ Libraries ______________________________ -->
 

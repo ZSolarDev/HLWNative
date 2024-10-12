@@ -1,6 +1,7 @@
 #define HL_NAME(n) applicationStatus_##n
 
 #include <hl.h>
+#ifdef APPLICATION_EXTERNS
 #include <psapi.h>
 #include "internalUtils.h"
 
@@ -19,3 +20,4 @@ HL_PRIM float HL_NAME(get_cpu_load)(_NO_ARG)
     return GetCPULoad();
 }
 DEFINE_PRIM(_F32, get_cpu_load, _NO_ARG);
+#endif

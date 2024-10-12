@@ -1,6 +1,6 @@
 package hlwnative;
 
-import flixel.util.FlxColor;
+import hlwnative.hlninterface.HLNEXTInterface;
 import lime.app.Application;
 
 using StringTools;
@@ -26,16 +26,13 @@ class HLNativeWindow
 	 */
 	public static function setWindowDarkMode(enable:Bool):Void
 	{
-		HLNEXT.set_window_dark_mode(Application.current.window.title, enable);
+		HLNEXTInterface.set_window_dark_mode(Application.current.window.title, enable);
 	}
 
 	/**
 	 * Sets the color of your windows title bar.
-	 * THIS ACCEPTS BGR, NOT RGB!! 
-	 * I would make an rgb to bgr converter but I couldn't get it to work.
-	 * If you can make one, make a pr!
 	 * 
-	 * @param targetColor The color in BGR(inverse of rgb) of the window title bar.
+	 * @param targetColor The color of the window title bar.
 	 */
 	public static function setWindowTitlebarColor(targetColor:Int):Void
 	{
@@ -140,6 +137,6 @@ class HLNativeWindow
 				}
 			}
 		}
-		HLNEXT.set_window_titlebar_color(Application.current.window.title, res);
+		HLNEXTInterface.set_window_titlebar_color(Application.current.window.title, res);
 	}
 }
