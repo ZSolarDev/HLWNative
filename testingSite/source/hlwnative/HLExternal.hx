@@ -1,8 +1,16 @@
+package hlwnative;
+
 @:hlNative("hlwnative")
 class HLExternal
 {
-	public static function makeToastNotification(toastTitle:String, content:String):Bool
+	/**
+	 * This function doesn't work,
+	 * It will indeed work in future versions though.
+	 */
+	public static function toastNotification(toastTitle:String, toastContent:String):Bool
 	{
-		return null;
+		return false;
+		// Does literally nothing 💀
+		// return HLNEXT.make_toast_notification(toastTitle, toastContent);
 	}
 }
