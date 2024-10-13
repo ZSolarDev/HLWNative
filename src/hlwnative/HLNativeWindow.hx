@@ -31,7 +31,7 @@ class HLNativeWindow
 
 	/**
 	 * Sets the color of your windows title bar.
-	 * 
+	 * (WINDOWS 11 ONLY)
 	 * @param targetColor The color of the window title bar.
 	 */
 	public static function setWindowTitlebarColor(targetColor:Int):Void
