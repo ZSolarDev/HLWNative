@@ -8,7 +8,7 @@ HashLink Windows Native.
 These are externs for HashLink that allow you to run a (currently small) library of native windows functions.
 
 ## How do I use it?
-it's not done yet, should be complete within hours though
+Look at the examples folder! Currently only flixel is there, but if you can make some more, make a pr!
 
 # HLWNative Insight
 This is insight on HLWNative.
