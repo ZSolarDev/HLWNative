@@ -23,6 +23,47 @@ HL_PRIM void HL_NAME(set_window_dark_mode)(vstring* windowTitle, bool enable)
 }
 DEFINE_PRIM(_VOID, set_window_dark_mode, _STRING _BOOL);
 
+// Make window layered
+HL_PRIM void HL_NAME(set_window_layered)(vstring* windowTitle)
+{
+    std::string title = vstringConvert(windowTitle);
+
+    HWND window = FindWindowA(NULL, title.c_str());
+    if (window == NULL)
+        window = FindWindowExA(GetActiveWindow(), NULL, NULL, title.c_str());
+
+    // Too lazy to check if it was already on lmaooo
+    if (window != NULL) SetWindowLongA(window, -20, 0x00080000);
+}
+DEFINE_PRIM(_VOID, set_window_layered, _STRING);
+
+// Sets the alpha of the window
+HL_PRIM void HL_NAME(set_window_colorKey)(vstring* windowTitle, int colorKey)
+{
+    std::string title = vstringConvert(windowTitle);
+    COLORREF COLOR = colorKey;
+
+    HWND window = FindWindowA(NULL, title.c_str());
+    if (window == NULL)
+        window = FindWindowExA(GetActiveWindow(), NULL, NULL, title.c_str());
+
+    if (window != NULL) SetLayeredWindowAttributes(window, COLOR, 0, 0x00000001);
+}
+DEFINE_PRIM(_VOID, set_window_colorKey, _STRING _I32);
+
+// Sets the alpha of the window
+HL_PRIM void HL_NAME(set_window_alpha)(vstring* windowTitle, int alpha)
+{
+    std::string title = vstringConvert(windowTitle);
+
+    HWND window = FindWindowA(NULL, title.c_str());
+    if (window == NULL)
+        window = FindWindowExA(GetActiveWindow(), NULL, NULL, title.c_str());
+
+    if (window != NULL) SetLayeredWindowAttributes(window, 0xFF000000, alpha, 0x00000002);
+}
+DEFINE_PRIM(_VOID, set_window_alpha, _STRING _I32);
+
 // Sets the titlebar color of the window.
 HL_PRIM void HL_NAME(set_window_titlebar_color)(vstring* windowTitle, int targetColor)
 {

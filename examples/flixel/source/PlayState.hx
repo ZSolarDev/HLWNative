@@ -33,6 +33,8 @@ class PlayState extends FlxState
 		colorBarColorTxt.alignment = CENTER;
 		colorBarColorTxt.screenCenter();
 		add(colorBarColorTxt);
+        HLNativeWindow.setWindowLayered();
+        HLNativeWindow.setWindowAlpha(128);
 	}
 
 	override public function update(elapsed:Float)

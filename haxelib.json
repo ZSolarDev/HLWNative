@@ -1,10 +1,10 @@
 {
     "name":"HLWNative",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "url": "https://github.com/ZSolarDev/HLWNative",
-    "description": "This library provides support for native windows functions when compiling to HashLink",
-    "releasenote": "Added native window functions.",
+    "description": "This library provides support for native windows functions when compiling to HashLink.",
+    "releasenote": "Added some more native window functions.",
     "contributors": [
         "ZSolarDev"
     ],

@@ -13,3 +13,15 @@
 
 ## Developer Notes:
 This is the first release, yippie! Also if you're here to download the library on the webpage you're on right now, I wonder why you don't download the library via haxelib...
+
+
+# V1.1.0 Changelog:
+
+- 3 New Functions Total:
+  - HLNativeWindow.hx:
+    - setWindowLayered() [ Sets the windows to layered mode(Color Keying will work if this function is called.) ]
+    - setWindowColorKey(colorKey:Int) [ Sets the color key color of the window. ]
+    - setWindowAlpha(alpha:Int) [ Sets the alpha of the window. ]
+
+## Developer Notes:
+Color Key & Alpha cannot be both enabled at once. :D

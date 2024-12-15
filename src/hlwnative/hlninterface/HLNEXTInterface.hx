@@ -8,6 +8,12 @@ class HLNEXTInterface
 {
 	@:noCompletion @:hlNative("native/hlnwin") private static function set_window_dark_mode(windowName:String, enable:Bool):Void {}
 
+    @:noCompletion @:hlNative("native/hlnwin") private static function set_window_layered(windowName:String):Void {}
+
+    @:noCompletion @:hlNative("native/hlnwin") private static function set_window_alpha(windowName:String, alpha:Int):Void {}
+
+    @:noCompletion @:hlNative("native/hlnwin") private static function set_window_colorKey(windowName:String, colorKey:Int):Void {}
+
 	@:noCompletion @:hlNative("native/hlnwin") private static function set_window_titlebar_color(windowName:String, targetColor:Int):Void {}
 
 	@:noCompletion @:hlNative("native/hlnext") private static function make_toast_notification(toastTitle:String, content:String):Bool
