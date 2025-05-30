@@ -4,7 +4,7 @@ package hlwnative.hlninterface;
 @:allow(hlwnative.HLDriveStatus)
 @:allow(hlwnative.HLNativeWindow)
 @:allow(hlwnative.HLApplicationStatus)
-class HLNEXTInterface
+@:noCompletion class HLNEXTInterface
 {
 	@:noCompletion @:hlNative("native/hlnwin") private static function set_window_dark_mode(windowName:String, enable:Bool):Void {}
 
@@ -30,4 +30,7 @@ class HLNEXTInterface
 
 	@:noCompletion @:hlNative("native/hlnapp") private static function get_cpu_load():Single
 		return 0.0;
+
+    @:noCompletion @:hlNative("native/hlnapp") private static function get_thread_count():Int
+		return 0;
 }

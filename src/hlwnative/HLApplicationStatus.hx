@@ -13,9 +13,15 @@ class HLApplicationStatus
 
 	/**
 	 * Gets the current CPU load by the program.
-	 * (Results are quite questionable.)
 	 * @return Float
 	 */
 	public static function getCPULoad():Float
 		return HLNEXTInterface.get_cpu_load();
+
+    /**
+	 * Gets the number of threads available.
+	 * @return Float
+	 */
+	public static function getTotalThreads():Float
+		return HLNEXTInterface.get_thread_count();
 }

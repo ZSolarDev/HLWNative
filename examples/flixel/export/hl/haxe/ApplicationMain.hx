@@ -19,7 +19,7 @@ class ApplicationMain
 		lime.system.System.__registerEntryPoint("FlxExample", create);
 
 		#if (js && html5)
-		#if (munit || utest)
+		#if (munit || (utest && openfl_enable_utest_legacy_mode))
 		lime.system.System.embed("FlxExample", null, 1280, 720);
 		#end
 		#else
@@ -35,7 +35,7 @@ class ApplicationMain
 		ManifestResources.init(config);
 		#end
 
-		app.meta["build"] = "14";
+		app.meta["build"] = "17";
 		app.meta["company"] = "ZSolarDev";
 		app.meta["file"] = "FlxExample";
 		app.meta["name"] = "FlxExample";

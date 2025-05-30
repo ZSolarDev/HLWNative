@@ -27,7 +27,8 @@ class PlayState extends FlxState
             Press Space to change the window bar color!\n
             Memory Usage: \n
             CPU Load: \n
-            Drive Space:
+            Drive Space: \n
+            Threads Total:
         ';
 		colorBarColorTxt.size = 25;
 		colorBarColorTxt.alignment = CENTER;
@@ -46,6 +47,7 @@ class PlayState extends FlxState
             Memory Usage: ${HLApplicationStatus.getMemoryUsage()} \n
             CPU Load: ${HLApplicationStatus.getCPULoad()} \n
             Drive Space: ${HLDriveStatus.getTotalDriveSize()} /  ${HLDriveStatus.getFreeDriveSize()}\n
+            Threads Total: ${HLApplicationStatus.getTotalThreads()} \n
         ';
 		colorBarColorTxt.screenCenter();
 		if (FlxG.keys.justPressed.SPACE && !animatingColor)

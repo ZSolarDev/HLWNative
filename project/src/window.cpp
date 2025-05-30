@@ -1,4 +1,4 @@
-#ifdef WINDOW_EXTERNS
+#ifdef WINDOW_EXTERNSs
 #define HL_NAME(n) window_##n
 
 #include <iostream>
