@@ -4,7 +4,7 @@
     "version": "1.2.0",
     "url": "https://github.com/ZSolarDev/HLWNative",
     "description": "This library provides support for native windows functions when compiling to HashLink.",
-    "releasenote": "Added the ability to get the total thread count.",
+    "releasenote": "Added the ability to get the total amount of threads.",
     "contributors": [
         "ZSolarDev"
     ],
