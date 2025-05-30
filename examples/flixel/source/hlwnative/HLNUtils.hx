@@ -26,7 +26,7 @@ class HLNUtils {
 			var char = colorStr.charAt(charID);
 			var nextChar = colorStr.charAt(charID + 1);
 			var prevChar = colorStr.charAt(charID - 1);
-			// running! char: $char | id: $charID');
+			// running!
 			if (char != '')
 			{
 				// Is this 0x? if so, move on

@@ -23,5 +23,12 @@ This is the first release, yippie! Also if you're here to download the library o
     - setWindowColorKey(colorKey:Int) [ Sets the color key color of the window. ]
     - setWindowAlpha(alpha:Int) [ Sets the alpha of the window. ]
 
+
+# V1.2.0 Changelog:
+
+- 1 New Function Total:
+  - HLApplicationStatus.hx:
+    - getTotalThreadCount():Int [ Gets the number of threads available. ]
+
 ## Developer Notes:
 Color Key & Alpha cannot be both enabled at once. :D
