@@ -9,8 +9,7 @@ class HLNativeWindow
 {
 	/**
 	 * Sets the windows dark mode property.
-	 * @param enable 
-     * @since 1.0.0
+	 * @param enable
 	 */
 	public static function setWindowDarkMode(enable:Bool):Void
 	{
@@ -21,7 +20,6 @@ class HLNativeWindow
 	 * Sets the color of your windows title bar.
 	 * 
 	 * @param targetColor The color of the window title bar.
-     * @since 1.0.0
 	 */
 	public static function setWindowTitlebarColor(targetColor:Int):Void
 	{
