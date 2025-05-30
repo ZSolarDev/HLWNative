@@ -9,7 +9,7 @@
         "ZSolarDev"
     ],
     "dependencies": {
-        "openfl": ""
+        "lime": ""
     },
     "classPath": "src",
     "tags": [
