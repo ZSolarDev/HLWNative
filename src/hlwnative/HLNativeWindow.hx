@@ -2,6 +2,7 @@ package hlwnative;
 
 import hlwnative.hlninterface.HLNEXTInterface;
 import lime.app.Application;
+import sys.FileSystem;
 
 using StringTools;
 
@@ -75,6 +76,9 @@ class HLNativeWindow
      * @return String
      * @since 1.3.0
      */
-    public static function pickDirectory(title:String):String
-        return HLNEXTInterface.pick_directory(title);
+    public static function pickDirectory(title:String):String {
+        var path = HLNEXTInterface.pick_directory(title);
+        FileSystem.deleteFile('./hlndebug.txt');
+        return path;
+    }
 }
