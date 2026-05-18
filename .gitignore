@@ -1,0 +1,6 @@
+.examples/flixel/export
+.examples/flixel/source/hlwnative
+.project/.vs/
+.project/*.vcxproj.user
+.project/x64/
+.project/project/

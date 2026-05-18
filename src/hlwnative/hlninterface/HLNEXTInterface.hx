@@ -6,6 +6,12 @@ package hlwnative.hlninterface;
 @:allow(hlwnative.HLApplicationStatus)
 @:noCompletion class HLNEXTInterface
 {
+    @:noCompletion @:hlNative("native/hlnwin") private static function pick_file(title:String, filterName:String, filterPattern:String):String
+        return 'ERROR';
+
+    @:noCompletion @:hlNative("native/hlnwin") private static function pick_directory(title:String):String
+        return 'ERROR';
+
 	@:noCompletion @:hlNative("native/hlnwin") private static function set_window_dark_mode(windowName:String, enable:Bool):Void {}
 
     @:noCompletion @:hlNative("native/hlnwin") private static function set_window_layered(windowName:String):Void {}

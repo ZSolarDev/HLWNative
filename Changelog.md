@@ -35,3 +35,13 @@ Color Key & Alpha cannot be both enabled at once. :D
 
 ## Developer Notes:
 It's been ages since the last update..
+
+# V1.3.0 Changelog:
+
+- 2 New Functions Total:
+  - HLNativeWindow.hx:
+    - pickFile(title:String, filterName:String, filterPattern:String):String [ Opens a file dialog and returns the path of the selected file. ]
+    - pickDirectory(title:String):String [ Opens a directory dialog and returns the path of the selected directory. ]
+
+## Developer Notes:
+I added these because I low-key couldn't find the windows COM dialog directory picker on hashlink anywhere else, and figured I'll add file picking while I'm at it.
