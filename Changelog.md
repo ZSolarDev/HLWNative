@@ -45,3 +45,9 @@ It's been ages since the last update..
 
 ## Developer Notes:
 I added these because I low-key couldn't find the windows COM dialog directory picker on hashlink anywhere else, and figured I'll add file picking while I'm at it.
+
+# V1.3.1 Changelog:
+Fixed the Native Window HDLL Binary.
+
+# V1.3.2 Changelog:
+Fixed the Native Window HDLL Binary. Again.
