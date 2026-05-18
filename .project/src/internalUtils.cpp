@@ -10,8 +10,12 @@ const char* vstringConvert(vstring* s)
 vstring* wideToVstring(PWSTR path)
 {
     int len = wcslen(path);
-    vstring* result = (vstring*)malloc(sizeof(vstring));
-    result->bytes = (uchar*)path;
+    vstring* result = (vstring*)hl_alloc_bytes(sizeof(vstring));
+    uchar* copy = (uchar*)hl_alloc_bytes((len + 1) * sizeof(uchar));
+    memcpy(copy, path, (len + 1) * sizeof(uchar));
+    CoTaskMemFree(path);
+    result->t = (hl_type*)&hlt_bytes;
+    result->bytes = copy;
     result->length = len;
     return result;
 }

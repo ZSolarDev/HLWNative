@@ -86,22 +86,18 @@ HL_PRIM void HL_NAME(set_window_dpi_aware)(_NO_ARG)
 }
 DEFINE_PRIM(_VOID, set_window_dpi_aware, _NO_ARG);
 
-// Lets the user pick a file and returns the path.
+// Opens a file picker dialog and returns the selected file path.
 HL_PRIM vstring* HL_NAME(pick_file)(vstring* title, vstring* filterName, vstring* filterPattern)
 {
     HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
     IFileOpenDialog* dialog = NULL;
     hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL, IID_IFileOpenDialog, (void**)&dialog);
     if (FAILED(hr)) { CoUninitialize(); return NULL; }
-
     dialog->SetTitle(constToWideChar(vstringConvert(title)));
-
     COMDLG_FILTERSPEC spec = { constToWideChar(vstringConvert(filterName)), constToWideChar(vstringConvert(filterPattern)) };
     dialog->SetFileTypes(1, &spec);
-
     hr = dialog->Show(NULL);
     if (FAILED(hr)) { dialog->Release(); CoUninitialize(); return NULL; }
-
     IShellItem* item = NULL;
     dialog->GetResult(&item);
     PWSTR path = NULL;
@@ -109,28 +105,21 @@ HL_PRIM vstring* HL_NAME(pick_file)(vstring* title, vstring* filterName, vstring
     item->Release();
     dialog->Release();
     CoUninitialize();
-
     return wideToVstring(path);
 }
 DEFINE_PRIM(_STRING, pick_file, _STRING _STRING _STRING);
 
-// Lets the user pick a directory and returns the path.
+// Opens a directory picker dialog and returns the selected directory path.
 HL_PRIM vstring* HL_NAME(pick_directory)(vstring* title)
 {
     HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
     IFileOpenDialog* dialog = NULL;
     hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL, IID_IFileOpenDialog, (void**)&dialog);
-    if (FAILED(hr)) { CoUninitialize(); return NULL; }
-
     dialog->SetTitle(constToWideChar(vstringConvert(title)));
-
     FILEOPENDIALOGOPTIONS opts;
     dialog->GetOptions(&opts);
     dialog->SetOptions(opts | FOS_PICKFOLDERS);
-
     hr = dialog->Show(NULL);
-    if (FAILED(hr)) { dialog->Release(); CoUninitialize(); return NULL; }
-
     IShellItem* item = NULL;
     dialog->GetResult(&item);
     PWSTR path = NULL;
@@ -138,8 +127,8 @@ HL_PRIM vstring* HL_NAME(pick_directory)(vstring* title)
     item->Release();
     dialog->Release();
     CoUninitialize();
-
-    return wideToVstring(path);
+    vstring* result = wideToVstring(path);
+    return result;
 }
 DEFINE_PRIM(_STRING, pick_directory, _STRING);
 #endif
